@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c3c11ab-7e28-4f3e-a9fe-cc0a6250ac3d" name="Changes" comment="Complete Between Two Sets">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/BreakingTheRecords.kt" afterDir="false" />
+    <list default="true" id="7c3c11ab-7e28-4f3e-a9fe-cc0a6250ac3d" name="Changes" comment="Complete Breaking The Records">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/SubarrayDivision.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,20 +26,24 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2FSADVtUbLsmDnSk1IgudyRdI2w" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/programlama/Kotlin_Projeleri/HackerRank/src/main/kotlin&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/programlama/Kotlin_Projeleri/HackerRank/src/main/kotlin",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\programlama\Kotlin_Projeleri\HackerRank\src\main\kotlin" />
@@ -86,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664558202940</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Complete Breaking The Records">
+      <created>1664567744920</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664567744920</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,6 +118,7 @@
     <MESSAGE value="Complete Apple and Orange" />
     <MESSAGE value="Complete Number Line Jumps" />
     <MESSAGE value="Complete Between Two Sets" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete Between Two Sets" />
+    <MESSAGE value="Complete Breaking The Records" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete Breaking The Records" />
   </component>
 </project>
