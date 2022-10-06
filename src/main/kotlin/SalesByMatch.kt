@@ -14,6 +14,8 @@ import kotlin.text.*
 
 fun sockMerchant(n: Int, ar: Array<Int>): Int {
     // Write your code here
+
+    /* First Try
     var counter = 0
     var pairs = 0
     val arr = ar.toHashSet()
@@ -29,6 +31,17 @@ fun sockMerchant(n: Int, ar: Array<Int>): Int {
         counter = 0
     }
     return pairs
+     */
+
+    // From: https://wise4rmgodadmob.medium.com/sales-by-match-hackerank-solved-using-kotlin-94e52bda7cc7
+    val map = ar.groupBy { it }.mapValues { it.value.count() }
+    var count = 0
+    for (i in map) {
+        if (i.value >= 2) {
+            count += i.value / 2
+        }
+    }
+    return count
 }
 
 fun main(args: Array<String>) {
