@@ -10,7 +10,7 @@ import kotlin.math.max
 fun pickingNumbers(a: Array<Int>): Int {
     // Write your code here
 
-    val frequency = IntArray(100) { 0 }
+    val frequency = IntArray(101) { 0 }
 
     var result = 0
 
