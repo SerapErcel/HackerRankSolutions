@@ -16,6 +16,7 @@ import kotlin.text.*
 
 fun countApplesAndOranges(s: Int, t: Int, a: Int, b: Int, apples: Array<Int>, oranges: Array<Int>) {
     // Write your code here
+    /*
     var appleCount = 0
     var orangeCount = 0
     for (i in apples) {
@@ -30,6 +31,11 @@ fun countApplesAndOranges(s: Int, t: Int, a: Int, b: Int, apples: Array<Int>, or
     }
     println(appleCount)
     println(orangeCount)
+    */
+
+    println(apples.count { a + it in s..t })
+    println(oranges.count { b + it in s..t })
+
 }
 
 fun main(args: Array<String>) {
